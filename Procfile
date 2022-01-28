@@ -1,1 +1,1 @@
-web: voila --port=$PORT --no-browser testfile.ipynb
+web: voila --bind :$PORT --workers 1 --no-browser testfile.ipynb
