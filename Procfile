@@ -1,1 +1,1 @@
-web: voila --bind :$PORT --workers 1 --no-browser testfile.ipynb
+web: voila --port=$PORT --no-browser --template=material --enable_nbextensions=True testfile.ipynb
